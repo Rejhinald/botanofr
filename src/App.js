@@ -28,7 +28,6 @@ const App = () => {
           <Route path='/plant/:id' element={<Plantscreen/>} exact></Route>
           <Route path='/register' element={<Registerscreen/>} exact></Route>
           <Route path='/subscription' element={<Subscriptionscreen />} exact></Route>
-          <Route path='/order' element={<Orderscreen />} exact></Route>
           <Route path='/subscribe' element={<SubscribeScreen />} exact></Route>
           <Route path='/admin/userlist' element={<UserListScreen />} exact></Route>
           <Route path='/admin/productlist' element={<PlantListScreen />}exact></Route>
